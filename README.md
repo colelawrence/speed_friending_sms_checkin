@@ -17,8 +17,7 @@ A phone validator and RSVP list maker.
 | **Mobile**, attempt change name. ![11m-try-change-name](screenshots/sf-v1-11m-try-change-name.png) |  |
 |  | **Clicked `Revoke` next to "Zombie Hippie"** |
 | **Mobile**, see revoked result name. ![20m-checked-out](screenshots/sf-v1-20m-checked-out.png) |  |
-
-**Mobile**, conversation summary. ![sf-v1-30m-summary](screenshots/sf-v1-30m-summary.png)
+| **Mobile**, conversation summary. ![sf-v1-30m-summary](screenshots/sf-v1-30m-summary.png) | |
 
 ### Printing list of checked in attendees
 
