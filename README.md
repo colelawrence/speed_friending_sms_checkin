@@ -2,6 +2,32 @@
 
 A phone validator and RSVP list maker.
 
+## Screenshots
+
+### Checking in, changing name, removing from event.
+
+| Attendee Interface | Admin Interface |
+| ------------- | ------------- |
+| Homepage from mobile view. ![00p-home](screenshots/sf-v1-00p-home.png)  | **Admin**, initial list. ![01s-list](screenshots/sf-v1-01s-list.png) |
+| **Mobile**, starting conversation. ![01m-start](screenshots/sf-v1-01m-start.png) |  |
+| **Mobile**, sent name. ![02m-sent-name](screenshots/sf-v1-02m-sent-name.png) | **Admin**, see new name. ![02s-list-cole-l-added](screenshots/sf-v1-02s-list-cole-l-added.png) |
+| **Mobile**, update name to "Zombie Hippie". ![03m-update-name](screenshots/sf-v1-03m-update-name.png) | **Admin**, see change in name. ![03s-list-changed-name](screenshots/sf-v1-03s-list-changed-name.png) |
+|  | **Admin**, verify name (check number in). ![10s-verified](screenshots/sf-v1-10s-verified.png) |
+| **Mobile**, see checked in. ![11m-checked-in](screenshots/sf-v1-11m-checked-in.png) |  |
+| **Mobile**, attempt change name. ![11m-try-change-name](screenshots/sf-v1-11m-try-change-name.png) |  |
+|  | **Clicked `Revoke` next to "Zombie Hippie"** |
+| **Mobile**, see revoked result name. ![20m-checked-out](screenshots/sf-v1-20m-checked-out.png) |  |
+
+**Mobile**, conversation summary. ![sf-v1-30m-summary](screenshots/sf-v1-30m-summary.png)
+
+### Printing list of checked in attendees
+
+**Admin**, print list of verified/checked in friends. ![90s-print-browser](screenshots/sf-v1-90s-print-browser.png)
+
+**Admin**, print list preview of verified/checked in friends. ![91s-print-print-preview](screenshots/sf-v1-91s-print-print-preview.png)
+
+## Setup
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
