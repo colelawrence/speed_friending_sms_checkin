@@ -1,0 +1,19 @@
+<br>
+<em class="alert"><%= @notes %></em>
+
+<h3>Awaiting (<%= length(@nonver) %>)</h3>
+<%= for v <- @nonver do %>
+  <div class="row">
+    <%= v.name %> – <strong><%= String.slice(v.phone, -4, 4) %></strong>
+    <a href="?verify=<%= v.id %>">Verify</a>,
+    <a href="?delete=<%= v.id %>">Delete</a>
+  </div>
+<% end %>
+
+<h3>Verified (<%= length(@ver) %>)</h3>
+<%= for v <- @ver do %>
+  <div class="row">
+    <%= v.name %> – <strong><%= String.slice(v.phone, -4, 4) %></strong>
+    <a href="?revoke=<%= v.id %>">Revoke</a>
+  </div>
+<% end %>

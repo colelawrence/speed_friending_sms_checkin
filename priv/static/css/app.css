@@ -1,0 +1,75 @@
+/* This file is for your main application css. *//* Includes Bootstrap as well as some default style for the starter
+ * application. This can be safely deleted to start fresh.
+ */
+body { margin: 0; padding: 0; }
+body {
+  color: #072520;
+  padding: 10vw;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 24px;
+  background: whitesmoke; }
+
+.mobile-only { display: none; }
+body.is-mobile-phone .mobile-hide { display: none; }
+body.is-mobile-phone .mobile-only { display: initial; }
+
+h1 { font-size: 14vw; letter-spacing: -1vw; margin-bottom: 0;}
+h2 { font-weight: normal; }
+h3 { font-size: .85em; text-transform: uppercase; opacity: .8;}
+
+.break { border-top: solid 1vw #FF3B3B; width: 20vw;
+margin-top: -1.5vw; padding-bottom: 1.5vw; }
+
+.page { max-width: 24em; margin: 0 auto; }
+.bottom-text { text-align: right; line-height: 1.6;}
+
+a { text-decoration: none; color: #FF3B3B; }
+a:hover { text-decoration: underline; }
+
+/* Utilities */
+.div-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-grow { flex-grow: 1; }
+.pa-1 { padding: .25rem;  }
+.w-100 { width: 100%; }
+.nowrap { white-space: nowrap; }
+
+.alert {
+  padding: .25rem .5rem;
+  background: whitesmoke;
+}
+.alert-info { border: 2px solid #1253ef; }
+.alert-danger { border: 2px solid #ef4312; }
+
+/* Space out content a bit */
+body, form, ul, table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  background: #FF3B3B;
+  color: white;
+  padding: .25rem .5rem;
+}
+
+/* Phoenix flash messages */
+.alert:empty { display: none; }
+
+/* Phoenix inline forms in links and buttons */
+form.link, form.button {
+  display: inline;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+.logo {
+  max-width: 720px;
+  width: 100%;
+  margin-bottom: 1em;
+}

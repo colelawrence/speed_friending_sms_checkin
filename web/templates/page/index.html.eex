@@ -1,0 +1,9 @@
+<p>
+	Welcome to Speed Friending!<br>
+	<br>
+	First, text us the name you put on your name tag!
+</p>
+<p class="mobile-hide">Text your name to <a href='sms:<%= Application.get_env(:ex_twilio, :send_number) %>'><%= Application.get_env(:ex_twilio, :send_number) %></a> from your mobile device.</p>
+<a class="btn mobile-only" href='sms:<%= Application.get_env(:ex_twilio, :send_number) %>'>Text us your name.</a>
+
+<p><em>Your number is secret</em> from everyone at the event, and it will be used to create GroupMe with your matches at the end of the event!</p>
