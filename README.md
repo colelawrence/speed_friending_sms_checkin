@@ -2,6 +2,12 @@
 
 A phone validator and RSVP list maker.
 
+The Speed Friending event was another idea put on by Covalent to see how open students would be to meeting others in a sort of Speed Dating-like atmosphere.
+
+After the event, we take everyones' match cards, and use the GroupMe API to create groups between students who both wanted to meet up again. We could use their phone number to identify them, and use GroupMe to keep their personal information private from each other. GroupMe is the predominate tool for group projects on campus, so it was a low risk endeavor for students.
+
+This is an entirely analog event which puts people in front of each other, and this project repo hosts the tools we needed to validate phone numbers and print out match sheets just before the event.
+
 ## Screenshots
 
 ### Checking in, changing name, removing from event.
